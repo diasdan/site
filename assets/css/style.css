@@ -414,15 +414,13 @@ a:hover{
 }
 
 .hidden {
-    opacity: 0;
+    opacity: 100;
     font-family: var(--font0);
     text-transform: capitalize;
     transition: .5ms;
 }
 
-.menu-items ul li ul{
-    list-style-type: none;
-}
+
 
 .menu-items ul li ul a{
     list-style-type: none;

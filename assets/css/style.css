@@ -12,19 +12,25 @@ body {
     margin: 0;
     color: #ffffff;
     font-family: var(--font0);
+    background-color: rgb(53, 53, 53);
     
 }
 
 header{
-    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.233);
+    box-shadow: 0 20px 10px rgba(145, 145, 145, 0.233);
     
+}
+
+main{
+    background-color: rgb(53, 53, 53);
+  
 }
 
 .header-wrapper{
     height: 100vh;
     width: 100%;
     background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(76, 77, 78));
-    background-image: url('/assets/img/Forced-linux-kernel-panic-under-qemu.gif');
+    background-image: url("../img/Forced-linux-kernel-panic-under-qemu.gif");
     filter: contrast(2);
     background-size: 400% 400%;
     display: flex;
@@ -253,6 +259,8 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     margin: 3rem 0;
+    color: #ffffff;
+    
 }
 
 .card-container {
@@ -283,7 +291,7 @@ a:hover{
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: black;
+    color: #ffffff
 }
 
 
@@ -378,6 +386,7 @@ a:hover{
         width: 90%;
         margin-top: 2rem;
         text-align: center;
+        color: #ffffff;
     }
 
     .card:hover > .card-wrapper::before {

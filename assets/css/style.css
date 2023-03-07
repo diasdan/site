@@ -11,17 +11,21 @@ body {
     padding: 0;
     margin: 0;
     color: #ffffff;
-    font-family: var(--font0)
+    font-family: var(--font0);
+    
 }
 
 header{
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.233);
+    
 }
 
 .header-wrapper{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(34, 67, 110));
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(76, 77, 78));
+    background-image: url('/assets/img/Forced-linux-kernel-panic-under-qemu.gif');
+    filter: contrast(2);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -29,6 +33,7 @@ header{
     justify-content: center;
     position: relative;
     animation: backgroundTransition 8s ease-in-out infinite;
+
 }
 
 h1 {

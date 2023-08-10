@@ -164,6 +164,21 @@ document.getElementById("centerEnd").addEventListener("click", function() {
     window.scrollBy({ top: scrollPosition, behavior: "smooth" });
   });
 
+
+  document.getElementById("centerFooter").addEventListener("click", function() {
+    
+    const sectionToCenterOn = document.getElementById("footer");
+  
+    const viewportHeight = window.innerHeight;
+  
+    const sectionPosition = sectionToCenterOn.getBoundingClientRect().top;
+  
+    const scrollPosition = sectionPosition - (viewportHeight / 20);
+  
+    window.scrollBy({ top: scrollPosition, behavior: "smooth" });
+  });
+
+
   document.getElementById("github-link").addEventListener("mouseover", function(){
     document.querySelector(".git-icon").style.height = "24px"
     this.style.fontSize = "18px";
@@ -221,7 +236,6 @@ function translate(isClick){
 }
 
 function toEnglish(isClick){
-  console.log("Funcionou!")
 
   document.querySelector("#inicio>h3").innerText = "I.T. Professional & Full-Stack Developer"
   document.querySelector("#p01").innerHTML = "My <strong>experience</strong> and <br> <strong>projects</strong> as a"

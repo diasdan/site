@@ -161,7 +161,7 @@ section{
     }
 
     #top {
-        background-image: url('/assets/img/bgs01.png');
+        background-image: url('assets/img/bgs01.png');
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;

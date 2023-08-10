@@ -426,7 +426,7 @@ div#inicio > img {
     height: 300px;
     display: inline-block;
     border-radius: 150px;
-    background-image: url('/assets/img/mypic.jpg');
+    background-image: url('https://avatars.githubusercontent.com/u/83825905?s=400&u=0954c997e898441a1854f269dea0ebb0ff358eaf&v=4');
     background-position: center;
     background-size: contain;
     box-shadow: 0px 0px 10px var(--color03)
@@ -580,7 +580,7 @@ footer {
 
 #finalPic {
     display: inline-block;
-    background-image: url("/assets/img/mypic.jpg");
+    background-image: url("https://avatars.githubusercontent.com/u/83825905?s=400&u=0954c997e898441a1854f269dea0ebb0ff358eaf&v=4");
     background-size: contain;
     height: 100px;
     width: 100px;

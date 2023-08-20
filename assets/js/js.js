@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
     themeToggle.addEventListener('click', () => {
         
         root.classList.toggle('dark');
-        //updateFilter();
 
     });
 
@@ -337,3 +336,58 @@ document.getElementById("centerSobre").addEventListener("click", function() {
       window.scrollBy({ top: scrollPosition, behavior: "smooth" });
     });
   
+    // center commands mob
+
+    document.getElementById("centerSobreMob").addEventListener("click", function() {
+    
+        const sectionToCenterOn = document.getElementById("top");
+      
+        const viewportHeight = window.innerHeight;
+      
+        const sectionPosition = sectionToCenterOn.getBoundingClientRect().top;
+      
+        const scrollPosition = sectionPosition - (viewportHeight / 20);
+      
+        window.scrollBy({ top: scrollPosition, behavior: "smooth" });
+      });
+      
+      document.getElementById("centerEndMob").addEventListener("click", function() {
+          
+          const sectionToCenterOn = document.getElementById("end");
+      
+          const viewportHeight = window.innerHeight;
+      
+          const sectionPosition = sectionToCenterOn.getBoundingClientRect().top;
+      
+          const scrollPosition = sectionPosition - (viewportHeight / 20);
+      
+          window.scrollBy({ top: scrollPosition, behavior: "smooth" });
+        });
+      
+        document.getElementById("centerMiddleMob").addEventListener("click", function() {
+          
+          const sectionToCenterOn = document.getElementById("middle01");
+      
+          const viewportHeight = window.innerHeight;
+      
+          const sectionPosition = sectionToCenterOn.getBoundingClientRect().top;
+      
+          const scrollPosition = sectionPosition - (viewportHeight / 20);
+      
+          window.scrollBy({ top: scrollPosition, behavior: "smooth" });
+        });
+      
+      
+        document.getElementById("centerFooterMob").addEventListener("click", function() {
+          
+          const sectionToCenterOn = document.getElementById("footer");
+        
+          const viewportHeight = window.innerHeight;
+        
+          const sectionPosition = sectionToCenterOn.getBoundingClientRect().top;
+        
+          const scrollPosition = sectionPosition - (viewportHeight / 20);
+        
+          window.scrollBy({ top: scrollPosition, behavior: "smooth" });
+        });
+      

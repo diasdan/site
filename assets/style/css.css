@@ -245,10 +245,6 @@ a{
 
     /*circle close*/
 
-
-
- 
-
     #theme_selector_wrapper {
         top: 0px;
         width: 100%;
@@ -286,7 +282,7 @@ a{
 
     #backgroundTop {
         top: 0;
-        background-image: url("/assets/img/wpp01.jpg");
+        background-image: url("/site/assets/img/bgs1.png");
         width: 100%;
         height: 70%;
         background-size: cover;
@@ -357,7 +353,7 @@ a{
 
     #end {
         margin-top: 5%;
-        background-image: url('/assets/img/bgs2.png');
+        background-image: url('/site/assets/img/bgs2.png');
         background-size: cover;
         background-repeat: no-repeat;
         text-align: left;
@@ -456,7 +452,7 @@ a{
         color: white;
         text-align: center;
         font-family: var(--font01);
-        background-image: url("../img/bgs4.png");
+        background-image: url("../img/bgs3.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
